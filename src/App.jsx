@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<FormPage setUserData={setUserData} />} />
+        <Route path="/ottermap-project" element={<FormPage setUserData={setUserData} />} />
         <Route path="/map" element={<MapPage userData={userData} />} />
       </Routes>
     </Router>
